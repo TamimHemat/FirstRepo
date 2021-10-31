@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AboutMe</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="CSS/style.css" rel="stylesheet">
 </head>
 <body>
@@ -16,26 +16,32 @@
     </header>
     <nav>
         <ul>
-            <li class="li1"><a href="#">page2</a></li>
-            <li class="li2"><a href="#">contact link</a></li>
+            <li class="li1"><a class="a1" href="#">page2</a></li>
+            <li class="li2"><a class="a2" href="#">contact link</a></li>
         </ul>
     </nav>
     <main>
-        <p>Hello, my name is <strong>Tamim Hemat</strong> and I am a student in <strong>BCIT</strong>. I am from <em>Bulgaria</em> where I have lived my whole life up until this summer.</p>
-        <img src="images/my_photo.jpg" width="600" height="380" alt="This is my photo" align="right">
-        <p>I was born in Sofia in the year 2002 on 3-rd of June. I am a Gemini - the BEST sign even though I know a lot of people will not agree :D.</p>
+        <div id="container">
+            <div class="par1">
+                <p class="par1">Hello, my name is <strong>Tamim Hemat</strong> and I am a student in <strong>BCIT</strong>. I am from <em>Bulgaria</em> where I have lived my whole life up until this summer.</p>
+            </div>
+            <div class="img1">
+                <img class="img" src="images/my_photo.jpg" alt="This is my photo">
+            </div>
+        </div>
+        <strong><p>I was born in Sofia in the year 2002 on 3-rd of June. I am a Gemini - the BEST sign even though I know a lot of people will not agree :D.</p>
         <p>I have always had huge interest in sciences and mathematics. I have also always had interest in computers.</p>
         <p>Websites have never really been my strong side, but that is maybe because I've never tried to put in the work.
         But now since I am in BCIT and I am very dedicated, I know that I will learn a lot of new skills that will forever be useful.</p>
         <p>I plan on finishing this program and then going back to Europe to pursue a carrier there.</p>
         <p>In Europe, Canadian and Amreican post-secondary education is very highly valued and people who do habe it
         have a very easy time finding a good job with a lot of opportunities and perspectives.</p>
-        <p>Midterms are soon so I will focus on them for now. After that I am willing to put in some good work into my website.</p>
+        <p>Midterms are soon so I will focus on them for now. After that I am willing to put in some good work into my website.</p></strong>
         <h2>List of my 3 favorite hobbies:</h2>
         <ol>
             <li class="li1">Going out with friends</li>
             <li class="li2">Playing the piano and the guitar</li>
-            <li class="li3">Spending time with my family and my girlfriend</li>
+            <li class="li3">Spending time with my girlfriend</li>
         </ol>
     </main>
 </body>
