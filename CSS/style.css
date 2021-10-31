@@ -1,0 +1,101 @@
+h1
+{
+color: #dde392;
+background-color: #7d8570;
+font-family: 'Roboto', sans-serif;
+}
+
+h2
+{
+color: #afbe8f;
+background-color: #646f58;
+font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    color:#dde392;
+    background-color:#7d8570;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    color:#dde39255;
+    background-color: #646f5835;
+    text-decoration:underline;
+}
+
+a:visited {
+    color:#dde392;
+    background-color: #7d8570;
+}
+p{
+    color: #dde392;
+    background-color: #7d8570;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    color: #dde392;
+}
+
+main {
+    color: #dde392;
+}
+
+header {
+    color: #dde392;
+    display:block;
+}
+
+nav {
+    color: #646f58;
+    background-color: #646f58;
+    position:sticky;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display:flex;
+    flex-direction: row;
+    background-color: #7d8570;
+    list-style: none;
+    opacity: 0.75;
+    justify-content: center;
+}
+
+ol {
+    display:flex;
+    flex-direction: row;
+    background-color: #7d8570;
+}
+
+.li1,
+.li2,
+.li3,
+.li4,
+.li5,
+.li6,
+.li7 {
+    padding: 2rem;
+    padding-top: 2.5rem;
+    font-size: 150%;
+    border-style: solid;
+    border-width: medium;
+}
+
+
+
+
+
+
+/*
+The 4 colors :
+#DDE392
+#AFBE8F
+#7D8570
+#646F58
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+*/
